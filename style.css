@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    display: flex;
+    
+  
+}
+.hp{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    margin-left: 5%;
+    background-color: gray;
+    color: white;
+    height: 100vh;
+    padding: 2%;
+    
+}
+.right{
+    margin-left: 10%;
+    width: 100%;
+    margin-right: 5%;
+}
+ .right table tr td{
+    width: 50%;
+    border-spacing: 2%;
+    
+}
+@media screen and (max-width:800px){
+   
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        margin: 0;
+        padding-left:2% ;
+        padding-right: 2%;
+        height:auto;
+        width: 100%;
+       
+    }
+    .right{
+        margin:0;
+        padding-left: 2%;
+        padding-right: 2%;
+        height: auto;
+        
+    }
+    .container section img{
+        width: 100%;
+    }
+}
